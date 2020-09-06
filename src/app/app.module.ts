@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import {MatDialog} from '@angular/material/dialog';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
